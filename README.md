@@ -9,7 +9,7 @@ Setup to GitOps your GKE cluster with Argo CD, plus an optional auto-rollback pa
 # gcloud (Google Cloud SDK), kubectl, and (optional) argocd CLI installed
 
 # Set GCP context
-gcloud auth login
+gcloud auth login --no-launch-browser
 gcloud config set project <YOUR_GCP_PROJECT_ID>
 gcloud config set compute/zone us-east4     # pick your preferred zone
 ```
